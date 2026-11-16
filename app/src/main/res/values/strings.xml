@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Hub Operator</string>
+    <string name="hub_overline">/// HUB OPERATOR</string>
+    <string name="sync_label">SYNC</string>
+    <string name="title_showcase">Profile Showcase</string>
+    <string name="title_telegram">Telegram Feed</string>
+    <string name="title_quests">Quests Achievements</string>
+    <string name="title_stats">Projects Gaming Showcase</string>
+    <string name="title_settings">Operator Settings</string>
+
+    <string name="nav_showcase">SHOWCASE</string>
+    <string name="nav_telegram">TELEGRAM</string>
+    <string name="nav_quests">QUESTS</string>
+    <string name="nav_stats">STATS</string>
+    <string name="nav_settings">SETTINGS</string>
+
+    <string name="cd_sync_status">Sync status menu</string>
+    <string name="cd_quick_actions">Quick command dispatch</string>
+    <string name="cd_operator_profile">Operator profile</string>
+    <string name="cd_operator_avatar">Operator avatar portrait</string>
+    <string name="cd_showcase_banner">Operator showcase banner art</string>
+    <string name="cd_workshop_banner">Workshop moon and butterflies banner</string>
+    <string name="cd_aether_shader">Aether Engine compute shader preview</string>
+    <string name="cd_copy_handle">Copy handle to clipboard</string>
+    <string name="cd_copy_log">Copy log entry to clipboard</string>
+    <string name="cd_add_reaction">Add emoji reaction</string>
+    <string name="cd_send_log">Publish log entry</string>
+    <string name="cd_tag_picker">Insert hashtag</string>
+    <string name="cd_claim_xp">Claim daily XP boost</string>
+    <string name="cd_reset_xp">Reset XP sandbox</string>
+    <string name="cd_clear_search">Clear search query</string>
+    <string name="cd_add_quest">Create new quest</string>
+    <string name="cd_add_project">Add workshop project</string>
+    <string name="cd_increment_goal">Increment goal progress</string>
+
+    <string name="search_logs_hint">Filter logs or press \'/\' to focus...</string>
+    <string name="composer_hint">Write a thought, daily log, or #tag...</string>
+    <string name="empty_feed_title">No matching logs found</string>
+    <string name="empty_feed_subtitle">Try clearing filters or dispatch a new log below.</string>
+    <string name="empty_quests_title">No active protocols</string>
+    <string name="empty_quests_subtitle">Tap + NEW QUEST to register a daily task or milestone.</string>
+</resources>

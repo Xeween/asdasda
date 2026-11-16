@@ -1,0 +1,6 @@
+{
+  "name": "Hub Operator",
+  "description": "Personal operator showcase, Telegram-style journal feed, daily quests & XP progression, and workshop portfolio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
