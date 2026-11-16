@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      JAVA_TOOL_OPTIONS: "-Djava.awt.headless=true -Xmx4g"
 
     steps:
       - name: Kodni yuklab olish
@@ -25,9 +27,9 @@ jobs:
       - name: APK yig'ish (Build)
         run: |
           if [ -f "./gradlew" ]; then
-            ./gradlew assembleDebug
+            ./gradlew assembleDebug --no-daemon --stacktrace
           else
-            gradle assembleDebug
+            gradle assembleDebug --no-daemon --stacktrace
           fi
 
       - name: Tayyor APK faylni saqlash
